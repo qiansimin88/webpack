@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+selenium-debug.log
+test/unit/coverage
+test/e2e/reports
+.idea/
+views2
+.cdn_log
+.vscode
+jsconfig.json
+dist2/
+wiki/
+
+lib/access_token/wechat.txt
+
