@@ -55,6 +55,11 @@ module.exports = {
             {
                 test: /\.css$/,
                 loader: 'style!css!postcss'//style: 内嵌到页面 css:实现css在js文件中的require/import功能
+            },
+            //image //限制大小小于10k的转成base64 读取的是css内的background的图片
+            {   
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader?limit=1000'
             }
         ]
     },
